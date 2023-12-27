@@ -16,7 +16,7 @@ async def ping_handler(c: Client, m: "types.Message"):
         InlineKeyboardButton("🛠️ Dᴇᴠꜱ 🛠️", url='https://t.me/GUARDIANff')
         ],[
         InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/AM_FILMS'),
-        InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+sSWbe8vjU2s1ZTRl')]])
+        InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+sSWbe8vjU2s1ZTRl')]]),
         reply_markup=types.InlineKeyboardMarkup([[
            types.InlineKeyboardButton("𝙱𝙾𝚃 𝚂𝙴𝚃𝚃𝙸𝙽𝙶𝚂",
                                       callback_data="showSettings")
