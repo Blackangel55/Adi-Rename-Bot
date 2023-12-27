@@ -12,11 +12,12 @@ async def ping_handler(c: Client, m: "types.Message"):
     await add_user_to_database(c, m)
     await c.send_flooded_message(
         chat_id=m.chat.id,
-        button = InlineKeyboardMarkup([[
-        InlineKeyboardButton("🛠️ Dᴇᴠꜱ 🛠️", url='https://t.me/GUARDIANff')
+        reply_markup=types.InlineKeyboardMarkup([[
+        types.InlineKeyboardButton("🛠️ Dᴇᴠꜱ 🛠️", url='https://t.me/GUARDIANff')
         ],[
-        InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/AM_FILMS'),
-        InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+sSWbe8vjU2s1ZTRl')]]),
+        types.InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/AM_FILMS'),
+       types.InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+sSWbe8vjU2s1ZTRl')
+        callback_data="start"]]),
         reply_markup=types.InlineKeyboardMarkup([[
            types.InlineKeyboardButton("𝙱𝙾𝚃 𝚂𝙴𝚃𝚃𝙸𝙽𝙶𝚂",
                                       callback_data="showSettings")
