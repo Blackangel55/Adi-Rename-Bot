@@ -7,9 +7,9 @@
         "rename",
         "bot"
     ],
-    "repository": "https://github.com/AbirHasan2005/Rename-Bot",
+    "repository": "https://github.com/Guardianff/OP-Rename-Bot",
     "website": "https://abirhasan.wtf",
-    "success_url": "https://t.me/AH_RenameBot",
+    "success_url": "https://t.me/am_films",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
@@ -51,7 +51,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     }
 }
