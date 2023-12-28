@@ -28,6 +28,7 @@ async def ping_handler(c: Client, m: "types.Message"):
         ]]))
     )
 
+
 @Client.on_message(filters.command("help") & filters.private)
 async def help_handler(c: Client, m: "types.Message"):
     if not m.from_user:
