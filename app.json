@@ -38,6 +38,9 @@
         },
         "OWNER_ID": {
             "description": "Bot Owner UserID"
+        },
+        "START_PTC": {
+            "description": "Bot Starting Pic"
         }
     },
     "buildpacks": [ 
