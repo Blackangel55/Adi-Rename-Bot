@@ -20,8 +20,7 @@ async def ping_handler(c: Client, m: "types.Message"):
         types.InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+sSWbe8vjU2s1ZTRl'),
         ],[
         types.InlineKeyboardButton("𝙱𝙾𝚃 𝚂𝙴𝚃𝚃𝙸𝙽𝙶𝚂",
-                                      callback_data="showSettings")]
-        ]])
+                                      callback_data="showSettings")]])
     )
 
 
