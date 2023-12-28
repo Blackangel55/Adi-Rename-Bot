@@ -15,8 +15,8 @@ async def ping_handler(c: Client, m: "types.Message"):
         text=f"""<b>𝗛𝗜 {message.from_user.first_name } 👋,</b>\n"""
         "<b>𝗜 𝗖𝗔𝗡 𝗥𝗘𝗡𝗔𝗠𝗘 𝗙𝗜𝗟𝗘𝗦 𝗪𝗜𝗧𝗛𝗢𝗨𝗧 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 𝗜𝗧!</b></n>"
         "<b>𝗠𝗔𝗗𝗘 𝗕𝗬 :- @GUARDIANff</b></n>",
-       await message.reply_photo(photo=START_PIC,
-                                caption=text,
+        await message.reply_photo(caption=text,
+                              photo=START_PIC,
         reply_markup=types.InlineKeyboardMarkup([[
         types.InlineKeyboardButton("🛠️ 𝗗𝗘𝗩 🛠️", url='https://t.me/GUARDIANff')
         ],[
