@@ -22,7 +22,7 @@ async def ping_handler(c: Client, m: "types.Message"):
         types.InlineKeyboardButton('𝗦𝗨𝗣𝗣𝗢𝗥𝗧', url='https://t.me/+sSWbe8vjU2s1ZTRl'),
         ],[
         types.InlineKeyboardButton("𝗕𝗢𝗧 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦",
-                                      callback_data="showSettings")
+                                      callback_data="showSettings"),
             await message.reply_photo(caption=text,
                               photo=START_PIC)
         ]])
