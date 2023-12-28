@@ -14,12 +14,12 @@ async def ping_handler(c: Client, m: "types.Message"):
         chat_id=m.chat.id,
         text=f"<b>𝗛𝗜 {message.from_user.first_name } 👋,</b>\n""<b>𝗜 𝗖𝗔𝗡 𝗥𝗘𝗡𝗔𝗠𝗘 𝗙𝗜𝗟𝗘𝗦 𝗪𝗜𝗧𝗛𝗢𝗨𝗧 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 𝗜𝗧!</b></n>""<b>𝗠𝗔𝗗𝗘 𝗕𝗬 :- @GUARDIANff</b></n>",
         reply_markup=types.InlineKeyboardMarkup([[
-        types.InlineKeyboardButton("🛠️ Dᴇᴠꜱ 🛠️", url='https://t.me/GUARDIANff')
+        types.InlineKeyboardButton("🛠️ 𝗗𝗘𝗩 🛠️", url='https://t.me/GUARDIANff')
         ],[
-        types.InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/AM_FILMS'),
-        types.InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+sSWbe8vjU2s1ZTRl'),
+        types.InlineKeyboardButton('𝗨𝗣𝗗𝗔𝗧𝗘𝗦', url='https://t.me/AM_FILMS'),
+        types.InlineKeyboardButton('𝗦𝗨𝗣𝗣𝗢𝗥𝗧', url='https://t.me/+sSWbe8vjU2s1ZTRl'),
         ],[
-        types.InlineKeyboardButton("𝙱𝙾𝚃 𝚂𝙴𝚃𝚃𝙸𝙽𝙶𝚂",
+        types.InlineKeyboardButton("𝗕𝗢𝗧 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦",
                                       callback_data="showSettings")]])
     )
 
