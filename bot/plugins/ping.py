@@ -25,7 +25,7 @@ async def ping_handler(c: Client, m: "types.Message"):
         ],[
         types.InlineKeyboardButton("𝗕𝗢𝗧 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦",
                                       callback_data="showSettings")]])
-                                )
+                                ))
 
 @Client.on_message(filters.command("help") & filters.private)
 async def help_handler(c: Client, m: "types.Message"):
