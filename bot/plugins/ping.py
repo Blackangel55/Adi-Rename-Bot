@@ -27,7 +27,7 @@ async def ping_handler(c: Client, m: "types.Message"):
                                       callback_data="showSettings")
         ]]))
     )
-
+    
 
 @Client.on_message(filters.command("help") & filters.private)
 async def help_handler(c: Client, m: "types.Message"):
