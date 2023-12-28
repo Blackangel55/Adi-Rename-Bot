@@ -1,7 +1,7 @@
 # (c) @Aadhi000
 from bot.client import Client
 from pyrogram import filters
-from pyrogram import types
+from pyrogram import typeshh
 from bot.core.db.add import add_user_to_database
 
 
