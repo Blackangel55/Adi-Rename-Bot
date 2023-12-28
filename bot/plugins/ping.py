@@ -12,7 +12,7 @@ async def ping_handler(c: Client, m: "types.Message"):
     await add_user_to_database(c, m)
     await c.send_flooded_message(
         chat_id=m.chat.id,
-        text="<b>𝙷𝚒 {message.from_user.first_name } 👋,</b>\n""<b>𝙸 𝙲𝙰𝙽 𝚁𝙴𝙽𝙰𝙼𝙴 𝙼𝙴𝙳𝙸𝙰 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙸𝚃!</b></n>""<b>𝙼𝙰𝙳𝙴 𝙱𝚈 :- @GUARDIANff</b></n>",
+        text=f"<b>𝗛𝗜 {message.from_user.first_name } 👋,</b>\n""<b>𝗜 𝗖𝗔𝗡 𝗥𝗘𝗡𝗔𝗠𝗘 𝗙𝗜𝗟𝗘𝗦 𝗪𝗜𝗧𝗛𝗢𝗨𝗧 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 𝗜𝗧!</b></n>""<b>𝗠𝗔𝗗𝗘 𝗕𝗬 :- @GUARDIANff</b></n>",
         reply_markup=types.InlineKeyboardMarkup([[
         types.InlineKeyboardButton("🛠️ Dᴇᴠꜱ 🛠️", url='https://t.me/GUARDIANff')
         ],[
